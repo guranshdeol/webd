@@ -2,8 +2,58 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: gilroy;
 }
 html, body{
     height: 100%;
     width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+}
+.nav{
+    /* background-color: red; */
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 30px 40px;
+    position: fixed;
+}
+.nav h3{
+    background-color: black;
+    color: white;
+    padding: 15px 25px;
+    margin-left: 5px;
+    font-size: 20px;
+    border-radius: 50px;
+    
+}
+.intro{
+    height: 45%;
+    width: 100%;
+    /* background-color: beige; */
+    padding: 55px 50px;
+}
+.intro h1{
+    font-size: 150px;
+    letter-spacing: -3px;
+    line-height: 130px;
+}
+.place{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+.place h4, .place h4{
+    font-size: 30px;
+    font-weight: 600;
+}
+.hero-img{
+    height: 87%;
+    width: 100%;
+    background-image: url(https://assets-global.website-files.com/64589fb989b2b33c593db89d/6458a6db645ec6a527000cfa_home-hero-p-2000.webp);
+    background-size: cover;
 }
