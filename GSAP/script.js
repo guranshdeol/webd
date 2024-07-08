@@ -1,4 +1,5 @@
-gsap.to(".box1",{
+const tl = gsap.timeline();
+tl.to(".box1",{
     x: 100,
     
     duration: 2,
@@ -8,7 +9,7 @@ gsap.to(".box1",{
   
 
 })
-gsap.to(".box2",{
+tl.to(".box2",{
     x: 100,
     scale: 0.5,
     duration: 2,
@@ -16,7 +17,7 @@ gsap.to(".box2",{
     rotate: 360,
     backgroundColor: "pink",
 })
-gsap.to(".box3",{
+tl.to(".box3",{
     x: 100,
     duration: 2,
     delay: 1,
