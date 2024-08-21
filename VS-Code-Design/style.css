@@ -1,0 +1,15 @@
+*{
+    background: black;
+    color: white;
+}
+.navbar{
+    padding-left: 200px;
+    padding-top: 20px;
+    padding-right: 200px;
+    /* display: flex; */
+
+}
+.topLink{
+    color: grey;
+    cursor: pointer;
+}
